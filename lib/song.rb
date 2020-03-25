@@ -13,15 +13,14 @@ class Song
 
   def initialize
     super
- 
   end
+
 
   def self.all
     @@songs
   end
 
-
   def artist=(artist)
     @artist = artist
   end
-end 
+end
