@@ -38,10 +38,7 @@ class Artist
     @@artists.detect {|a| a.name == name}
   end 
 
-  def add_songs(songs)
-    songs.each { |song| add_song(song) }
-  end
-  def songs
+  
     @songs 
 end 
 end 
